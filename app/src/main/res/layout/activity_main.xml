@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接成功"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/lanya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙链接"
+        android:background="#4B75DD"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印测试"
+        android:background="#A1D669"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/lanya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
